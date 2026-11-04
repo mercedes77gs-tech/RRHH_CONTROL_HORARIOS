@@ -1,2 +1,263 @@
 # RRHH_CONTROL_HORARIOS
 DASHBOARD PARA CONTROL DE HORAS TRABAJADAS, DIAS DE AUSENCIAS POR MOTIVOS, DEPARTAMENTOS.
+
+MEMORIA_DASHBOARD_RRHH.txt
+
+DASHBOARD RRHH - MEMORIA DE DESARROLLO
+Objetivo del proyecto
+
+El objetivo de este proyecto ha sido construir un dashboard de Recursos Humanos en Power BI a partir de datos simulados de empleados, fichajes, ausencias y calendario corporativo.
+
+El enfoque elegido no ha sido financiero sino orientado a la gestión de personas, buscando entender:
+
+Cumplimiento horario.
+Horas trabajadas.
+Horas extra.
+Ausencias.
+Vacaciones.
+Bajas médicas.
+Formación.
+Evolución temporal de los datos.
+Estructura de los datos
+
+Se trabajó inicialmente con cuatro fuentes de datos CSV:
+
+EMPLEADOS
+
+Información básica del personal:
+
+ID Empleado
+Nombre
+Departamento
+Salario bruto mensual
+Fecha de alta
+FICHAJES
+
+Registro horario diario:
+
+Fecha
+Hora entrada
+Hora salida
+Horas teóricas
+Horas trabajadas
+Horas extra
+Retrasos
+AUSENCIAS
+
+Control de incidencias:
+
+Vacaciones
+Asuntos personales
+Formación
+Bajas médicas
+Permisos especiales
+CALENDARIO
+
+Tabla de fechas utilizada como dimensión temporal.
+
+Retos encontrados
+1. Problemas con formatos regionales
+
+Los CSV fueron generados con formato decimal anglosajón.
+
+Ejemplos:
+
+8.45
+0.75
+1.25
+
+
+Power BI interpretó inicialmente algunos valores de forma incorrecta, provocando resultados anómalos en:
+
+Horas trabajadas.
+Horas extra.
+
+Fue necesario revisar:
+
+Tipos de datos.
+Configuración regional.
+Conversión a decimal.
+2. Relaciones entre tablas
+
+Las relaciones automáticas creadas por Power BI no siempre eran correctas.
+
+Se revisó manualmente el modelo estableciendo:
+
+CALENDARIO --> FICHAJES
+CALENDARIO --> AUSENCIAS
+
+EMPLEADOS --> FICHAJES
+EMPLEADOS --> AUSENCIAS
+
+
+con relaciones:
+
+1 --> Muchos
+
+
+y sentido de filtro simple.
+
+3. Fechas importadas como texto
+
+Uno de los principales problemas detectados fue que la fecha en FICHAJES estaba importándose como texto.
+
+Consecuencias:
+
+Los filtros temporales no funcionaban.
+Año y Mes no afectaban a los visuales.
+Aparición de registros "(en blanco)".
+
+La conversión correcta a tipo Fecha solucionó completamente el problema.
+
+4. Traducción del calendario
+
+El calendario original se encontraba en inglés.
+
+Se modificaron los campos para trabajar en español:
+
+Meses:
+
+Enero
+Febrero
+Marzo
+...
+
+
+Días:
+
+Lunes
+Martes
+Miércoles
+...
+
+
+Mejorando la coherencia del dashboard.
+
+Decisiones de diseño
+
+Durante el desarrollo se probaron diferentes enfoques visuales.
+
+Información eliminada
+
+Finalmente se descartó mostrar:
+
+Salario mensual.
+Coste estimado de ausencias.
+
+Motivo:
+
+Aunque son datos válidos, podían desplazar el foco hacia la perspectiva económica en lugar de la gestión de personas.
+
+Información mantenida
+
+Se consideró más útil mostrar:
+
+Vacaciones.
+Bajas médicas.
+Formación.
+Asuntos personales.
+Horas trabajadas.
+Horas extra.
+KPI implementado
+Cumplimiento horario
+
+El indicador principal desarrollado es:
+
+% Cumplimiento Horario
+
+
+Calculado mediante la comparación entre:
+
+Horas trabajadas.
+Horas teóricas.
+
+Interpretación:
+
+100 % = cumplimiento exacto
+>100 % = exceso de horas
+<100 % = déficit horario
+
+Estado horario
+
+Se añadió un indicador visual independiente del porcentaje.
+
+Motivación:
+
+Permitir identificar rápidamente el estado general sin necesidad de leer o interpretar datos numéricos.
+
+Sistema tipo semáforo:
+
+Verde = correcto
+Ámbar = revisar
+Rojo = desviación importante
+
+Criterios de usabilidad
+
+Durante el diseño se priorizaron los siguientes aspectos:
+
+Lectura rápida
+
+Se intentó que el usuario pudiera responder rápidamente a:
+
+¿Quién acumula más ausencias?
+¿Cuántos días de baja existen?
+¿Se están cumpliendo las horas?
+¿Qué departamentos presentan más incidencias?
+Menor carga visual
+
+Se descartaron elementos que:
+
+Repetían información.
+Añadían ruido.
+Obligasen al usuario a interpretar datos innecesarios.
+Consistencia visual
+
+Se utilizaron colores corporativos basados en:
+
+Grises oscuros.
+Verdes apagados.
+Tonos miel para resaltado.
+
+Buscando equilibrio entre:
+
+Legibilidad.
+Profesionalidad.
+Bajo cansancio visual.
+Aprendizajes obtenidos
+
+Durante el proyecto se reforzaron conocimientos sobre:
+
+Power Query
+Transformación de tipos.
+Configuración regional.
+Manejo de fechas.
+Comentarios en lenguaje M.
+Modelado
+Relaciones 1 a muchos.
+Tablas de hechos.
+Tablas de dimensiones.
+Uso correcto del calendario como tabla central.
+DAX
+Medidas.
+SELECTEDVALUE.
+COALESCE.
+DIVIDE.
+KPI de cumplimiento.
+Diseño de dashboards
+Priorización visual.
+Jerarquía de la información.
+Indicadores frente a KPI.
+Diseño orientado a usuario final.
+Próximas mejoras
+
+Posibles ampliaciones futuras:
+
+Evolución mensual del cumplimiento horario.
+Evolución temporal de ausencias.
+Ranking dinámico por departamentos.
+KPIs de absentismo.
+Comparación entre periodos.
+Página específica de costes laborales.
+Página específica de planificación de vacaciones.
+
+Estado actual del proyecto: funcional, con modelo de datos estable y preparado para nuevas ampliaciones analíticas.
