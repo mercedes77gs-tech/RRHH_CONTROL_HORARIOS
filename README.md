@@ -1,5 +1,7 @@
 # RRHH_CONTROL_HORARIOS
 DASHBOARD PARA CONTROL DE HORAS TRABAJADAS, DIAS DE AUSENCIAS POR MOTIVOS, DEPARTAMENTOS.
+<img width="1322" height="727" alt="image png" src="https://github.com/user-attachments/assets/791412a2-b049-482b-bf91-826050db23c8" />
+
 
 MEMORIA_DASHBOARD_RRHH.txt
 
