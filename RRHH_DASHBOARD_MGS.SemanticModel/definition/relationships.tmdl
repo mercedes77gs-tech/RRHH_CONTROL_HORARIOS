@@ -1,0 +1,31 @@
+relationship 8b85f155-235f-4b3c-b36b-0feffff9787b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: EMPLEADOS.Fecha_Alta
+	toColumn: LocalDateTable_242d28c0-c85b-4fa5-9b8f-8a9a85de3c06.Date
+
+relationship AutoDetected_cdce9a90-652c-49f3-bb64-0c6ec6526b17
+	fromColumn: FICHAJES_V2.ID_Empleado
+	toColumn: EMPLEADOS.ID_Empleado
+
+relationship 9f02e01f-d3e4-4f43-8b0f-f9b406d938fd
+	joinOnDateBehavior: datePartOnly
+	fromColumn: AUSENCIAS_V2.Fecha_Fin
+	toColumn: LocalDateTable_c6ec6ebf-9a1f-42c2-a59a-117b411d85a0.Date
+
+relationship AutoDetected_537e0512-e2e4-4668-82be-b6e9cbd0805b
+	fromColumn: AUSENCIAS_V2.ID_Empleado
+	toColumn: EMPLEADOS.ID_Empleado
+
+relationship 6152a8a8-8dfe-419b-8076-c642fcfabb25
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CALENDARIO.Fecha
+	toColumn: LocalDateTable_dbd3e050-3c18-4062-8e0e-7efd30f81d5b.Date
+
+relationship cb3e483c-58a1-2662-8fcd-0b50a30af9cd
+	fromColumn: FICHAJES_V2.Fecha
+	toColumn: CALENDARIO.Fecha
+
+relationship ab3a2968-c6b1-dc97-b23e-a182dada08c4
+	fromColumn: AUSENCIAS_V2.Fecha_Inicio
+	toColumn: CALENDARIO.Fecha
+

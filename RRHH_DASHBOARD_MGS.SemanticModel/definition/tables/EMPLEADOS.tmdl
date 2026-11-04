@@ -1,0 +1,106 @@
+table EMPLEADOS
+	lineageTag: e7d8c461-7e28-4739-9339-29876f6e68ee
+
+	measure 'Empleado Seleccionado' =
+			
+			IF(
+			    HASONEVALUE(EMPLEADOS[Nombre_Empleado]),
+			    SELECTEDVALUE(EMPLEADOS[Nombre_Empleado]),
+			    "Todos"
+			)
+		lineageTag: 4e0f204d-7450-4f53-832d-e956fda8fc91
+
+	measure 'Departamento Seleccionado' = ```
+			
+			IF(
+			    HASONEVALUE(EMPLEADOS[Departamento]),
+			    SELECTEDVALUE(EMPLEADOS[Departamento]),
+			    "Todos"
+			)
+			
+			
+			```
+		lineageTag: 2eee4b78-e4e0-4a71-8292-3391af91f36f
+
+	column ID_Empleado
+		dataType: string
+		lineageTag: 9eac36ba-9fb0-4d5e-a7e3-7de5aefe341b
+		summarizeBy: none
+		sourceColumn: ID_Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nombre_Empleado
+		dataType: string
+		lineageTag: cd9a8983-f921-49a3-bd59-8266467db700
+		summarizeBy: none
+		sourceColumn: Nombre_Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Departamento
+		dataType: string
+		lineageTag: 47f1a783-cc23-4498-bc2a-049d5cd81aa2
+		summarizeBy: none
+		sourceColumn: Departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha_Alta
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 9e1eae06-fbaa-417d-b0e7-61071442ab75
+		summarizeBy: none
+		sourceColumn: Fecha_Alta
+
+		variation Variation
+			isDefault
+			relationship: 8b85f155-235f-4b3c-b36b-0feffff9787b
+			defaultHierarchy: LocalDateTable_242d28c0-c85b-4fa5-9b8f-8a9a85de3c06.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Salario_Bruto_Mensual
+		dataType: double
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: ab3cd9b6-08cc-4525-84b3-bde4697e6e1b
+		summarizeBy: sum
+		sourceColumn: Salario_Bruto_Mensual
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = User
+
+	column Horas_Semana
+		dataType: double
+		formatString: 0.00
+		lineageTag: 207b2a36-2d84-4a61-9e1c-3f99365715be
+		summarizeBy: sum
+		sourceColumn: Horas_Semana
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estado
+		dataType: string
+		lineageTag: 28a1b65d-c467-4211-a40d-b9095de3e7e2
+		summarizeBy: none
+		sourceColumn: Estado
+
+		annotation SummarizationSetBy = Automatic
+
+	partition EMPLEADOS = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("Z:\MIS TRABAJOS\RRHH dashboard\CSV\EMPLEADOS.csv"),[Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID_Empleado", type text}, {"Nombre_Empleado", type text}, {"Departamento", type text}, {"Fecha_Alta", type date}, {"Salario_Bruto_Mensual", Int64.Type}, {"Horas_Semana", Int64.Type}, {"Estado", type text}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,2741 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "fea59839915612e69c54",
+  "position": {
+    "x": 10.144927536231885,
+    "y": 37.681159420289859,
+    "z": 0,
+    "height": 1002.8985507246377,
+    "width": 1882.608695652174,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "MEMORIA_DASHBOARD_RRHH.txt",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "DASHBOARD RRHH - MEMORIA DE DESARROLLO",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Objetivo del proyecto",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El objetivo de este proyecto ha sido construir un dashboard de Recursos Humanos en Power BI a partir de datos simulados de empleados, fichajes, ausencias y calendario corporativo.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El enfoque elegido no ha sido financiero sino orientado a la gestión de personas, buscando entender:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Cumplimiento horario.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas trabajadas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas extra.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ausencias.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Vacaciones.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Bajas médicas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Formación.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Evolución temporal de los datos.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Estructura de los datos",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Se trabajó inicialmente con cuatro fuentes de datos CSV:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "EMPLEADOS",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Información básica del personal:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "ID Empleado",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Nombre",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Departamento",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Salario bruto mensual",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Fecha de alta",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "FICHAJES",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Registro horario diario:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Fecha",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Hora entrada",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Hora salida",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas teóricas",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas trabajadas",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas extra",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Retrasos",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "AUSENCIAS",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Control de incidencias:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Vacaciones",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Asuntos personales",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Formación",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Bajas médicas",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Permisos especiales",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "CALENDARIO",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Tabla de fechas utilizada como dimensión temporal.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Retos encontrados",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "1. Problemas con formatos regionales",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Los CSV fueron generados con formato decimal anglosajón.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ejemplos:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "8.45",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "0.75",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "1.25",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Power BI interpretó inicialmente algunos valores de forma incorrecta, provocando resultados anómalos en:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas trabajadas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas extra.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Fue necesario revisar:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Tipos de datos.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Configuración regional.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Conversión a decimal.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "2. Relaciones entre tablas",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Las relaciones automáticas creadas por Power BI no siempre eran correctas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Se revisó manualmente el modelo estableciendo:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "CALENDARIO --> FICHAJES",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "CALENDARIO --> AUSENCIAS",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "EMPLEADOS --> FICHAJES",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "EMPLEADOS --> AUSENCIAS",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "con relaciones:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "1 --> Muchos",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "y sentido de filtro simple.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "3. Fechas importadas como texto",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Uno de los principales problemas detectados fue que la fecha en FICHAJES estaba importándose como texto.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Consecuencias:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Los filtros temporales no funcionaban.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Año y Mes no afectaban a los visuales.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Aparición de registros \"(en blanco)\".",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La conversión correcta a tipo Fecha solucionó completamente el problema.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "4. Traducción del calendario",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El calendario original se encontraba en inglés.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Se modificaron los campos para trabajar en español:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Meses:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Enero",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Febrero",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Marzo",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "...",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Días:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Lunes",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Martes",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Miércoles",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "...",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Mejorando la coherencia del dashboard.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Decisiones de diseño",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Durante el desarrollo se probaron diferentes enfoques visuales.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Información eliminada",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Finalmente se descartó mostrar:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Salario mensual.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Coste estimado de ausencias.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Motivo:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Aunque son datos válidos, podían desplazar el foco hacia la perspectiva económica en lugar de la gestión de personas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Información mantenida",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Se consideró más útil mostrar:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Vacaciones.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Bajas médicas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Formación.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Asuntos personales.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas trabajadas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas extra.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "KPI implementado",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Cumplimiento horario",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El indicador principal desarrollado es:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "% Cumplimiento Horario",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Calculado mediante la comparación entre:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas trabajadas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Horas teóricas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Interpretación:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "100 % = cumplimiento exacto",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ">100 % = exceso de horas",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "<100 % = déficit horario",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Estado horario",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Se añadió un indicador visual independiente del porcentaje.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Motivación:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Permitir identificar rápidamente el estado general sin necesidad de leer o interpretar datos numéricos.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Sistema tipo semáforo:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Verde = correcto",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ámbar = revisar",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Rojo = desviación importante",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Criterios de usabilidad",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Durante el diseño se priorizaron los siguientes aspectos:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Lectura rápida",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Se intentó que el usuario pudiera responder rápidamente a:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "¿Quién acumula más ausencias?",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "¿Cuántos días de baja existen?",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "¿Se están cumpliendo las horas?",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "¿Qué departamentos presentan más incidencias?",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Menor carga visual",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Se descartaron elementos que:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Repetían información.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Añadían ruido.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Obligasen al usuario a interpretar datos innecesarios.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Consistencia visual",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Se utilizaron colores corporativos basados en:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Grises oscuros.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Verdes apagados.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Tonos miel para resaltado.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Buscando equilibrio entre:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Legibilidad.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Profesionalidad.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Bajo cansancio visual.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Aprendizajes obtenidos",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Durante el proyecto se reforzaron conocimientos sobre:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Power Query",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Transformación de tipos.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Configuración regional.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Manejo de fechas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Comentarios en lenguaje M.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Modelado",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Relaciones 1 a muchos.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Tablas de hechos.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Tablas de dimensiones.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Uso correcto del calendario como tabla central.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "DAX",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Medidas.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "SELECTEDVALUE.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "COALESCE.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "DIVIDE.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "KPI de cumplimiento.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Diseño de dashboards",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Priorización visual.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Jerarquía de la información.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Indicadores frente a KPI.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Diseño orientado a usuario final.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Próximas mejoras",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Posibles ampliaciones futuras:",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Evolución mensual del cumplimiento horario.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Evolución temporal de ausencias.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ranking dinámico por departamentos.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "KPIs de absentismo.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Comparación entre periodos.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Página específica de costes laborales.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Página específica de planificación de vacaciones.",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Estado actual del proyecto: funcional, con modelo de datos estable y preparado para nuevas ampliaciones analíticas",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "color": "#e6e6e6"
+                    }
+                  },
+                  {
+                    "value": ".",
+                    "textStyle": {
+                      "color": "#e6e6e6"
+                    }
+                  }
+                ],
+                "indent": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

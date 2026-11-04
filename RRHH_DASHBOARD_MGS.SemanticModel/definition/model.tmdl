@@ -1,0 +1,26 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-ES
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["FICHAJES_V2","EMPLEADOS","AUSENCIAS_V2","CALENDARIO"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table FICHAJES_V2
+ref table DateTableTemplate_e48bfbef-5827-4183-946e-6d3ceb44b124
+ref table EMPLEADOS
+ref table LocalDateTable_242d28c0-c85b-4fa5-9b8f-8a9a85de3c06
+ref table AUSENCIAS_V2
+ref table LocalDateTable_c6ec6ebf-9a1f-42c2-a59a-117b411d85a0
+ref table CALENDARIO
+ref table LocalDateTable_dbd3e050-3c18-4062-8e0e-7efd30f81d5b
+
+ref cultureInfo es-ES
+

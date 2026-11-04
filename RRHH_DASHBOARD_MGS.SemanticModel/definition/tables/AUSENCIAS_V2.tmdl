@@ -1,0 +1,90 @@
+table AUSENCIAS_V2
+	lineageTag: f0e49526-dbe7-43d2-b6bb-93c90a9a6368
+
+	column ID_Ausencia
+		dataType: string
+		lineageTag: 01146877-69c6-4713-a4bd-d3a0e73daced
+		summarizeBy: none
+		sourceColumn: ID_Ausencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Empleado
+		dataType: string
+		lineageTag: 76e5fce4-3877-4b07-9ee3-8911282761c1
+		summarizeBy: none
+		sourceColumn: ID_Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tipo_Ausencia
+		dataType: string
+		lineageTag: d7094acf-5e33-4e6e-90b8-e244735a35de
+		summarizeBy: none
+		sourceColumn: Tipo_Ausencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha_Inicio
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 78f21b59-7769-450b-8459-0a5628f4fddd
+		summarizeBy: none
+		sourceColumn: Fecha_Inicio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Fecha_Fin
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 6a39bbe8-965e-41ea-a567-c3cbbfb821bc
+		summarizeBy: none
+		sourceColumn: Fecha_Fin
+
+		variation Variation
+			isDefault
+			relationship: 9f02e01f-d3e4-4f43-8b0f-f9b406d938fd
+			defaultHierarchy: LocalDateTable_c6ec6ebf-9a1f-42c2-a59a-117b411d85a0.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Dias
+		dataType: int64
+		formatString: 0
+		lineageTag: 907caf5e-f15e-4e88-91f6-bc36117b1c7d
+		summarizeBy: sum
+		sourceColumn: Dias
+
+		annotation SummarizationSetBy = Automatic
+
+	column Coste_Estimado
+		dataType: double
+		isHidden
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: f2bffd68-356f-47cf-92b1-74d6d96a1b8a
+		summarizeBy: sum
+		sourceColumn: Coste_Estimado
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AUSENCIAS_V2 = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("Z:\MIS TRABAJOS\RRHH dashboard\CSV\AUSENCIAS_V2.csv"),[Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID_Ausencia", type text}, {"ID_Empleado", type text}, {"Tipo_Ausencia", type text}, {"Fecha_Inicio", type date}, {"Fecha_Fin", type date}, {"Dias", Int64.Type}, {"Coste_Estimado", Int64.Type}}),
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Tipo cambiado",{{"Coste_Estimado", type number}})
+				in
+				    #"Tipo cambiado1"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

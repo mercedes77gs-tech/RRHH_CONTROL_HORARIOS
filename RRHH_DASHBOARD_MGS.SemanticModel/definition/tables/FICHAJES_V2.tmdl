@@ -1,0 +1,133 @@
+table FICHAJES_V2
+	lineageTag: f8072ca2-e564-4a23-9ffe-0e447cbe9fa1
+
+	measure 'SALDO HORARIO' = SUM(FICHAJES_V2[Horas_Trabajadas])-SUM(FICHAJES_V2[Horas_Teoricas])
+		lineageTag: a981b684-d910-4e40-b015-10d153540c19
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '% CUMPLIMIENTO' = DIVIDE(SUM(FICHAJES_V2[Horas_Trabajadas]),SUM(FICHAJES_V2[Horas_Teoricas]),0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 4e3cc203-4bf0-4eb9-9f4b-6562a5250805
+
+	measure 'Estado Cumplimiento' =
+			
+			SWITCH(
+			    TRUE(),
+			    [% Cumplimiento] >= 1, "🟢",
+			    [% Cumplimiento] >= 0.95, "🟠",
+			    "🔴"
+			)
+		lineageTag: d92d480b-70fe-47fd-b6d4-63decfd7d3ee
+
+	column ID_Fichaje
+		dataType: string
+		lineageTag: 63e33343-56d2-4567-bb90-92564e29fe61
+		summarizeBy: none
+		sourceColumn: ID_Fichaje
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 664b9a3d-8850-4a0a-97ce-0254717d1f1e
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ID_Empleado
+		dataType: string
+		lineageTag: 072c2c75-8a14-4b7b-916b-56b45ccc481e
+		summarizeBy: none
+		sourceColumn: ID_Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Hora_Entrada
+		dataType: string
+		lineageTag: 446b4cc8-59f4-4905-b93f-2263dcc2424a
+		summarizeBy: none
+		sourceColumn: Hora_Entrada
+
+		annotation SummarizationSetBy = Automatic
+
+	column Hora_Salida
+		dataType: string
+		lineageTag: 0abc1e3d-2c1a-46d9-99aa-68bc5f72afb3
+		summarizeBy: none
+		sourceColumn: Hora_Salida
+
+		annotation SummarizationSetBy = Automatic
+
+	column Horas_Teoricas
+		dataType: double
+		lineageTag: 4120a8f6-abdf-4cab-9806-1ada6204b4b5
+		summarizeBy: sum
+		sourceColumn: Horas_Teoricas
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Horas_Trabajadas
+		dataType: double
+		lineageTag: 3734f521-48c3-4879-a10b-abce459d75ab
+		summarizeBy: sum
+		sourceColumn: Horas_Trabajadas
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Horas_Extra
+		dataType: double
+		formatString: 0.00
+		lineageTag: a9f5dc8e-7c33-432f-adb1-aed01b8d6a3c
+		summarizeBy: none
+		sourceColumn: Horas_Extra
+
+		annotation SummarizationSetBy = User
+
+	column Retraso_Minutos
+		dataType: double
+		formatString: 0
+		lineageTag: fc0663bf-7555-4345-97ac-19cd23a2486f
+		summarizeBy: sum
+		sourceColumn: Retraso_Minutos
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FICHAJES_V2 = m
+		mode: import
+		source = ```
+				let
+				 
+				 // Consulta FICHAJES_V2
+				    // CSV UTF-8
+				    // Decimales importados con configuración en-US
+				    // Horas_Trabajadas y Horas_Extra corregidas
+				    // Proyecto RRHH Dashboard
+					
+				    Origen = Csv.Document(File.Contents("Z:\MIS TRABAJOS\RRHH dashboard\CSV\FICHAJES_V2.csv"),[Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Encabezados promovidos", {{"Horas_Extra", type number}}, "en-US"),
+				    #"Tipo cambiado con configuración regional1" = Table.TransformColumnTypes(#"Tipo cambiado con configuración regional", {{"Horas_Trabajadas", type number}}, "en-US"),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Tipo cambiado con configuración regional1",{{"Horas_Trabajadas", type number}, {"Horas_Extra", type number}})
+				in
+				    #"Tipo cambiado"
+				```
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

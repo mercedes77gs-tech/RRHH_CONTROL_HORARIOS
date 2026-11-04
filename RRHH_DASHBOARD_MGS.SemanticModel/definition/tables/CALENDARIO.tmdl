@@ -1,0 +1,132 @@
+table CALENDARIO
+	lineageTag: 94a23428-3e46-4563-ade2-2bfa69d29bd7
+
+	measure 'Último Refresco' = ```
+			
+			"Último refresco: " & 
+			FORMAT(NOW(), "dd/MM/yyyy HH:mm")
+			```
+		lineageTag: 7b7d724e-cc72-472f-9cf9-230fab5e18b5
+
+	column Fecha
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: e5dcb9e4-e7ad-4958-bbb8-0f9a0393f711
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		variation Variation
+			isDefault
+			relationship: 6152a8a8-8dfe-419b-8076-c642fcfabb25
+			defaultHierarchy: LocalDateTable_dbd3e050-3c18-4062-8e0e-7efd30f81d5b.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Año
+		dataType: int64
+		formatString: 0
+		lineageTag: 8159cae4-cf3d-4cd7-90f7-76644e4be745
+		summarizeBy: sum
+		sourceColumn: Año
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes
+		dataType: int64
+		formatString: 0
+		lineageTag: c44ff10d-355c-43a2-b556-fd346c58aede
+		summarizeBy: sum
+		sourceColumn: Mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: int64
+		formatString: 0
+		lineageTag: afa1e59e-525b-4c1f-b8ce-229dc22adcd3
+		summarizeBy: sum
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semana
+		dataType: int64
+		formatString: 0
+		lineageTag: cea8f548-9407-403d-b145-d29c97c5e385
+		summarizeBy: sum
+		sourceColumn: Semana
+
+		annotation SummarizationSetBy = Automatic
+
+	column EsLaborable
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 7ef58e90-edbf-4ef5-b0e2-96fcb25e8545
+		summarizeBy: none
+		sourceColumn: EsLaborable
+
+		annotation SummarizationSetBy = Automatic
+
+	column NombreMes_ES
+		dataType: string
+		lineageTag: ad42ffd0-e055-4621-ad07-014a6f3e72b9
+		summarizeBy: none
+		sourceColumn: NombreMes_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaSemana_ES
+		dataType: string
+		lineageTag: 798ccfee-5124-4375-a245-a66232f64b07
+		summarizeBy: none
+		sourceColumn: DiaSemana_ES
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CALENDARIO = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("Z:\MIS TRABAJOS\RRHH dashboard\CSV\CALENDARIO.csv"),[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(
+				        Origen,
+				        [PromoteAllScalars=true]
+				    ),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(
+				        #"Encabezados promovidos",
+				        {
+				            {"Fecha", type date},
+				            {"Año", Int64.Type},
+				            {"Mes", Int64.Type},
+				            {"NombreMes", type text},
+				            {"Trimestre", Int64.Type},
+				            {"Semana", Int64.Type},
+				            {"DiaSemana", type text},
+				            {"EsLaborable", type logical}
+				        }
+				    ),
+				    #"NombreMes_ES" =
+				        Table.AddColumn(
+				            #"Tipo cambiado",
+				            "NombreMes_ES",
+				            each Date.MonthName([Fecha], "es-ES"),
+				            type text
+				        ),
+				    #"DiaSemana_ES" =
+				        Table.AddColumn(
+				            #"NombreMes_ES",
+				            "DiaSemana_ES",
+				            each Date.DayOfWeekName([Fecha], "es-ES"),
+				            type text
+				        ),
+				    #"Columnas quitadas" = Table.RemoveColumns(DiaSemana_ES,{"NombreMes", "DiaSemana"}),
+				    #"Columnas reordenadas" = Table.ReorderColumns(#"Columnas quitadas",{"Fecha", "Año", "NombreMes_ES", "Mes", "Trimestre", "DiaSemana_ES", "Semana", "EsLaborable"})
+				in
+				    #"Columnas reordenadas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

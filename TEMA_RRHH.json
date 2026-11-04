@@ -1,0 +1,44 @@
+{
+  "name": "Dark Olive Corporate",
+  "dataColors": [
+    "#606C38",
+    "#D4A437",
+    "#A67832",
+    "#5D7A7A",
+    "#3E342A",
+    "#7F8C73",
+    "#C6B28A",
+    "#738B8B"
+  ],
+  "background": "#1F2324",
+  "foreground": "#E6E6E6",
+  "tableAccent": "#606C38",
+  "good": "#606C38",
+  "neutral": "#5D7A7A",
+  "bad": "#7A4A3A",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1F2324"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "color": {
+              "solid": {
+                "color": "#D4A437"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

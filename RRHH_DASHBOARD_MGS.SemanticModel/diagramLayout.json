@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 64
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 247,
+            "y": 267
+          },
+          "nodeIndex": "FICHAJES_V2",
+          "nodeLineageTag": "f8072ca2-e564-4a23-9ffe-0e447cbe9fa1",
+          "size": {
+            "height": 291,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 10
+          },
+          "nodeIndex": "EMPLEADOS",
+          "nodeLineageTag": "e7d8c461-7e28-4739-9339-29876f6e68ee",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 326,
+            "y": 0
+          },
+          "nodeIndex": "AUSENCIAS_V2",
+          "nodeLineageTag": "f0e49526-dbe7-43d2-b6bb-93c90a9a6368",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 606,
+            "y": 166
+          },
+          "nodeIndex": "CALENDARIO",
+          "nodeLineageTag": "94a23428-3e46-4563-ade2-2bfa69d29bd7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

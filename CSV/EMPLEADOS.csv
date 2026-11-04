@@ -1,0 +1,8 @@
+ID_Empleado,Nombre_Empleado,Departamento,Fecha_Alta,Salario_Bruto_Mensual,Horas_Semana,Estado
+EMP01,Miriam Bellucci,Administración,2025-01-01,2400,40,Activo
+EMP02,Sergio Hanks,Operaciones,2025-01-01,2700,40,Activo
+EMP03,Alex Pitt,Atencion Cliente,2025-01-01,2200,40,Activo
+EMP04,Imogen Scott,Logistica,2025-01-01,2500,40,Activo
+EMP05,Keanu Diver,Mantenimiento,2025-01-01,2600,40,Activo
+EMP06,Merce Blanchett,HelpDesk,2025-01-01,2300,40,Activo
+EMP07,Erik Red,Diseño Grafico,2025-01-01,2400,40,Activo

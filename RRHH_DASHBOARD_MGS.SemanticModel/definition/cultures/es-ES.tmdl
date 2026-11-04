@@ -1,0 +1,4121 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "fichaje_v_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fichaje v 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FICHAJES_V2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.ID_fichaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "ID_Fichaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID fichaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Fichaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification fichaje": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity fichaje": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier fichaje": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential fichaje": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "Fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fichaje_v_2.ID_empleado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "ID_Empleado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID empleado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Empleado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.hora_entrada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "Hora_Entrada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora entrada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Hora_Entrada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.hora_salida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "Hora_Salida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora salida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Hora_Salida": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.horas_teorica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "Horas_Teoricas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas teorica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora teorica": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Horas_Teoricas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.horas_trabajada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "Horas_Trabajadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas trabajada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora trabajada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Horas_Trabajadas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.horas_extra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "Horas_Extra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas extra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora extra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Horas_Extra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.retraso_minuto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "Retraso_Minutos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "retraso minuto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Retraso_Minutos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "empleado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "empleado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.ID_empleado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "ID_Empleado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID empleado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Empleado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.nombre_empleado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "Nombre_Empleado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre empleado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Nombre_Empleado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Empleado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "Departamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "departamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.fecha_alta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "Fecha_Alta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha alta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fecha_Alta": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "empleado.fecha_alta.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "VariationSource": "Fecha_Alta",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.fecha_alta.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "VariationSource": "Fecha_Alta",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha alta año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.fecha_alta.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "VariationSource": "Fecha_Alta",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha alta trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.fecha_alta.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "VariationSource": "Fecha_Alta",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha alta me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.fecha_alta.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "VariationSource": "Fecha_Alta",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha alta día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.salario_bruto_mensual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "Salario_Bruto_Mensual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "salario bruto mensual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Salario_Bruto_Mensual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.horas_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "Horas_Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horas semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora semana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Horas_Semana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "Estado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ausencia v 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AUSENCIAS_V2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.ID_ausencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "ConceptualProperty": "ID_Ausencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID ausencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Ausencia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification ausencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity ausencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier ausencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential ausencia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.ID_empleado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "ConceptualProperty": "ID_Empleado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID empleado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Empleado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential empleado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.tipo_ausencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "ConceptualProperty": "Tipo_Ausencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo ausencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tipo_Ausencia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.fecha_inicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "ConceptualProperty": "Fecha_Inicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha inicio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fecha_Inicio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ausencia_v_2.fecha_fin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "ConceptualProperty": "Fecha_Fin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha fin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fecha_Fin": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "fecha appendage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fecha limb": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fecha organ": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fecha member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fecha flipper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fecha paddle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fecha projection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "fecha propeller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "fecha rudder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "fecha stabilizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ausencia_v_2.fecha_fin.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "VariationSource": "Fecha_Fin",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.fecha_fin.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "VariationSource": "Fecha_Fin",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha fin año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.fecha_fin.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "VariationSource": "Fecha_Fin",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha fin trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.fecha_fin.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "VariationSource": "Fecha_Fin",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha fin me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha appendage me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fecha limb me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fecha organ me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fecha member me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fecha flipper me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "fecha paddle me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "fecha projection me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "fecha propeller me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "fecha rudder me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "fecha stabilizer me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.fecha_fin.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "VariationSource": "Fecha_Fin",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha fin día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.dias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "ConceptualProperty": "Dias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dias": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ausencia_v_2.coste_estimado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AUSENCIAS_V2",
+			          "ConceptualProperty": "Coste_Estimado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "coste estimado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Coste_Estimado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.fecha.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.fecha.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.fecha.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.fecha.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.fecha.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "VariationSource": "Fecha",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "semana": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.es_laborable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "EsLaborable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "es laborable": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EsLaborable": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.nombre_mes_ES": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "NombreMes_ES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre mes ES": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre me ES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "NombreMes_ES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.dia_semana_ES": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "DiaSemana_ES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana ES": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DiaSemana_ES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.saldo_horario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "SALDO HORARIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "saldo horario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.último_refresco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CALENDARIO",
+			          "ConceptualProperty": "Último Refresco"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "último refresco": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.cumplimiento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "% CUMPLIMIENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% cumplimiento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage cumplimiento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct cumplimiento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fichaje_v_2.estado_cumplimiento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FICHAJES_V2",
+			          "ConceptualProperty": "Estado Cumplimiento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado cumplimiento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Estado Horario": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.empleado_seleccionado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "Empleado Seleccionado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "empleado seleccionado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "empleado.departamento_seleccionado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "EMPLEADOS",
+			          "ConceptualProperty": "Departamento Seleccionado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "departamento seleccionado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "calendario_fecha_trimestre_has_calendario_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.fecha.trimestre"
+			          }
+			        },
+			        "calendario.fecha.me": {
+			          "Target": {
+			            "Entity": "calendario.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario.fecha.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "calendario_fecha_año_has_calendario_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.fecha.año": {
+			          "Target": {
+			            "Entity": "calendario.fecha.año"
+			          }
+			        },
+			        "calendario.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.año"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario.fecha.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años2"
+			        }
+			      ]
+			    },
+			    "calendario_fecha_jerarquía_de_fecha_has_calendario_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario.fecha.día": {
+			          "Target": {
+			            "Entity": "calendario.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "calendario_fecha_jerarquía_de_fecha_has_calendario_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario.fecha.me": {
+			          "Target": {
+			            "Entity": "calendario.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "calendario_fecha_jerarquía_de_fecha_has_calendario_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_fecha_jerarquía_de_fecha_has_calendario_fecha_año": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "calendario.fecha.año": {
+			          "Target": {
+			            "Entity": "calendario.fecha.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "calendario_fecha_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.fecha": {
+			          "Target": {
+			            "Entity": "calendario.fecha"
+			          }
+			        },
+			        "calendario.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "calendario.fecha.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_fecha_fin_me_has_ausencia_v_2_fecha_fin_día": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2.fecha_fin.me": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.me"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin.día": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.me"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.día"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me1"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_fecha_fin_trimestre_has_ausencia_v_2_fecha_fin_me": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2.fecha_fin.trimestre": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.trimestre"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin.me": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.trimestre"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.me"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_fecha_fin_año_has_ausencia_v_2_fecha_fin_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2.fecha_fin.año": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.año"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin.trimestre": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.año"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.trimestre"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años1"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_fecha_fin_jerarquía_de_fecha_has_ausencia_v_2_fecha_fin_día": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin.día": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días1"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_fecha_fin_jerarquía_de_fecha_has_ausencia_v_2_fecha_fin_me": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin.me": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me1"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_fecha_fin_jerarquía_de_fecha_has_ausencia_v_2_fecha_fin_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin.trimestre": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_fecha_fin_jerarquía_de_fecha_has_ausencia_v_2_fecha_fin_año": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin.año": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años1"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_fecha_fin_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2.fecha_fin": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2.fecha_fin"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_fins_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "empleado_fecha_alta_me_has_empleado_fecha_alta_día": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado.fecha_alta.me": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.me"
+			          }
+			        },
+			        "empleado.fecha_alta.día": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.me"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.día"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "empleado.fecha_alta.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    },
+			    "empleado_fecha_alta_trimestre_has_empleado_fecha_alta_me": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado.fecha_alta.trimestre": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.trimestre"
+			          }
+			        },
+			        "empleado.fecha_alta.me": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.trimestre"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.me"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "empleado.fecha_alta.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "empleado_fecha_alta_año_has_empleado_fecha_alta_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado.fecha_alta.año": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.año"
+			          }
+			        },
+			        "empleado.fecha_alta.trimestre": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.año"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.trimestre"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "empleado.fecha_alta.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "empleado_fecha_alta_jerarquía_de_fecha_has_empleado_fecha_alta_día": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado.fecha_alta.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.jerarquía_de_fecha"
+			          }
+			        },
+			        "empleado.fecha_alta.día": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días2"
+			        }
+			      ]
+			    },
+			    "empleado_fecha_alta_jerarquía_de_fecha_has_empleado_fecha_alta_me": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado.fecha_alta.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.jerarquía_de_fecha"
+			          }
+			        },
+			        "empleado.fecha_alta.me": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me2"
+			        }
+			      ]
+			    },
+			    "empleado_fecha_alta_jerarquía_de_fecha_has_empleado_fecha_alta_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado.fecha_alta.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.jerarquía_de_fecha"
+			          }
+			        },
+			        "empleado.fecha_alta.trimestre": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "empleado_fecha_alta_jerarquía_de_fecha_has_empleado_fecha_alta_año": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado.fecha_alta.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.jerarquía_de_fecha"
+			          }
+			        },
+			        "empleado.fecha_alta.año": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años2"
+			        }
+			      ]
+			    },
+			    "empleado_fecha_alta_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado.fecha_alta": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta"
+			          }
+			        },
+			        "empleado.fecha_alta.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado.fecha_alta"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fecha_alta_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2": {
+			          "Target": {
+			            "Entity": "ausencia_v_2"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ausencia_v_2_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_ausencia_v_2"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_has_empleado": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2": {
+			          "Target": {
+			            "Entity": "ausencia_v_2"
+			          }
+			        },
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2"
+			            },
+			            "Object": {
+			              "Role": "empleado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ausencia_v_2_have_empleados"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_ausencia_v_2"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_fichaje_v_2"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_empleado": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "empleado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_empleados"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_fichaje_v_2"
+			        }
+			      ]
+			    },
+			    "empleado_has_departamento_seleccionado": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.departamento_seleccionado": {
+			          "Target": {
+			            "Entity": "empleado.departamento_seleccionado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.departamento_seleccionado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_departamento_seleccionado"
+			        }
+			      ]
+			    },
+			    "empleado_has_empleado_seleccionado": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.empleado_seleccionado": {
+			          "Target": {
+			            "Entity": "empleado.empleado_seleccionado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.empleado_seleccionado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_empleado_seleccionado"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_estado_cumplimiento": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.estado_cumplimiento": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.estado_cumplimiento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.estado_cumplimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_estado_cumplimiento"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_cumplimiento": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.cumplimiento": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.cumplimiento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.cumplimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have__cumplimiento"
+			        }
+			      ]
+			    },
+			    "calendario_has_último_refresco": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.último_refresco": {
+			          "Target": {
+			            "Entity": "calendario.último_refresco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.último_refresco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_último_refresco"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_saldo_horario": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.saldo_horario": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.saldo_horario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.saldo_horario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_saldo_horario"
+			        }
+			      ]
+			    },
+			    "calendario_has_dia_semana_ES": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.dia_semana_ES": {
+			          "Target": {
+			            "Entity": "calendario.dia_semana_ES"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.dia_semana_ES"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dia_semana_ESes"
+			        }
+			      ]
+			    },
+			    "calendario_has_nombre_mes_ES": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.nombre_mes_ES": {
+			          "Target": {
+			            "Entity": "calendario.nombre_mes_ES"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.nombre_mes_ES"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_nombre_mes_ESes"
+			        }
+			      ]
+			    },
+			    "calendario_has_es_laborable": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.es_laborable": {
+			          "Target": {
+			            "Entity": "calendario.es_laborable"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.es_laborable"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_es_laborables"
+			        }
+			      ]
+			    },
+			    "calendario_has_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.semana": {
+			          "Target": {
+			            "Entity": "calendario.semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_semanas"
+			        }
+			      ]
+			    },
+			    "calendario_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.me": {
+			          "Target": {
+			            "Entity": "calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_año": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.año": {
+			          "Target": {
+			            "Entity": "calendario.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_años"
+			        }
+			      ]
+			    },
+			    "calendario_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.fecha": {
+			          "Target": {
+			            "Entity": "calendario.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_fechas"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_has_dias": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2": {
+			          "Target": {
+			            "Entity": "ausencia_v_2"
+			          }
+			        },
+			        "ausencia_v_2.dias": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.dias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.dias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ausencia_v_2_have_dias"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_has_fecha_fin": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2": {
+			          "Target": {
+			            "Entity": "ausencia_v_2"
+			          }
+			        },
+			        "ausencia_v_2.fecha_fin": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_fin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_fin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ausencia_v_2_have_fecha_fins"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_has_fecha_inicio": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2": {
+			          "Target": {
+			            "Entity": "ausencia_v_2"
+			          }
+			        },
+			        "ausencia_v_2.fecha_inicio": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.fecha_inicio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.fecha_inicio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ausencia_v_2_have_fecha_inicios"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_has_tipo_ausencia": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2": {
+			          "Target": {
+			            "Entity": "ausencia_v_2"
+			          }
+			        },
+			        "ausencia_v_2.tipo_ausencia": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.tipo_ausencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.tipo_ausencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ausencia_v_2_have_tipo_ausencias"
+			        }
+			      ]
+			    },
+			    "ausencia_v_2_has_ID_ausencia": {
+			      "Binding": {
+			        "ConceptualEntity": "AUSENCIAS_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ausencia_v_2": {
+			          "Target": {
+			            "Entity": "ausencia_v_2"
+			          }
+			        },
+			        "ausencia_v_2.ID_ausencia": {
+			          "Target": {
+			            "Entity": "ausencia_v_2.ID_ausencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ausencia_v_2"
+			            },
+			            "Object": {
+			              "Role": "ausencia_v_2.ID_ausencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ausencia_v_2_have_ID_ausencias"
+			        }
+			      ]
+			    },
+			    "empleado_has_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.estado": {
+			          "Target": {
+			            "Entity": "empleado.estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_estado"
+			        }
+			      ]
+			    },
+			    "empleado_has_horas_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.horas_semana": {
+			          "Target": {
+			            "Entity": "empleado.horas_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.horas_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_horas_semanas"
+			        }
+			      ]
+			    },
+			    "empleado_has_salario_bruto_mensual": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.salario_bruto_mensual": {
+			          "Target": {
+			            "Entity": "empleado.salario_bruto_mensual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.salario_bruto_mensual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_salario_bruto_mensuals"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "empleado.salario_bruto_mensual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "salario_bruto_mensual_indicates_how_expensive_empleados_are"
+			        }
+			      ]
+			    },
+			    "empleado_has_fecha_alta": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.fecha_alta": {
+			          "Target": {
+			            "Entity": "empleado.fecha_alta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.fecha_alta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_fecha_alta"
+			        }
+			      ]
+			    },
+			    "empleado_has_departamento": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.departamento": {
+			          "Target": {
+			            "Entity": "empleado.departamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_departamentos"
+			        }
+			      ]
+			    },
+			    "empleado_has_nombre_empleado": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.nombre_empleado": {
+			          "Target": {
+			            "Entity": "empleado.nombre_empleado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.nombre_empleado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_nombre_empleados"
+			        }
+			      ]
+			    },
+			    "empleado_has_ID_empleado": {
+			      "Binding": {
+			        "ConceptualEntity": "EMPLEADOS"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "empleado": {
+			          "Target": {
+			            "Entity": "empleado"
+			          }
+			        },
+			        "empleado.ID_empleado": {
+			          "Target": {
+			            "Entity": "empleado.ID_empleado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "empleado"
+			            },
+			            "Object": {
+			              "Role": "empleado.ID_empleado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "empleados_have_ID_empleados"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_retraso_minuto": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.retraso_minuto": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.retraso_minuto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.retraso_minuto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_retraso_minutos"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_horas_extra": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.horas_extra": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.horas_extra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.horas_extra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_horas_extras"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_horas_trabajada": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.horas_trabajada": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.horas_trabajada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.horas_trabajada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_horas_trabajadas"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_horas_teorica": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.horas_teorica": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.horas_teorica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.horas_teorica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_horas_teoricas"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_hora_salida": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.hora_salida": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.hora_salida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.hora_salida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_hora_salidas"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_hora_entrada": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.hora_entrada": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.hora_entrada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.hora_entrada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_hora_entradas"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.fecha": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_fechas"
+			        }
+			      ]
+			    },
+			    "fichaje_v_2_has_ID_fichaje": {
+			      "Binding": {
+			        "ConceptualEntity": "FICHAJES_V2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fichaje_v_2": {
+			          "Target": {
+			            "Entity": "fichaje_v_2"
+			          }
+			        },
+			        "fichaje_v_2.ID_fichaje": {
+			          "Target": {
+			            "Entity": "fichaje_v_2.ID_fichaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fichaje_v_2"
+			            },
+			            "Object": {
+			              "Role": "fichaje_v_2.ID_fichaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fichaje_v_2_have_ID_fichajes"
+			        }
+			      ]
+			    },
+			    "calendario_fecha_me_has_calendario_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "CALENDARIO"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario.fecha.me": {
+			          "Target": {
+			            "Entity": "calendario.fecha.me"
+			          }
+			        },
+			        "calendario.fecha.día": {
+			          "Target": {
+			            "Entity": "calendario.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario.fecha.día"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "calendario.fecha.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calendario.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me2"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
